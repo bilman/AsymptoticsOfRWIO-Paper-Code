@@ -5,8 +5,10 @@ This repository includes samples for the code used in the scientific paper
 
 More explicitly, it includes:
 
-- a Jupyter notebook titled `Painleve2TT.ipynb` that contains all the routines to compute the "potential" $\mathcal{V}(y;\tau)$ associated with the increasing tritronquée solution of Painlevé-II equation:```math
+- a Jupyter notebook titled `Painleve2TT.ipynb` that contains all the routines to compute the "potential" $\mathcal{V}(y;\tau)$ associated with the increasing tritronquée solution of Painlevé-II equation:
+```math
 u^{\prime \prime}(x)=x u(x)+2 u(x)^3-\alpha,
-```with parameter $\alpha=\frac{1}{2}+\mathrm{i}p$, where $p=\frac{1}{2\pi}\ln(1+\frac{|b|}{|a|})$. Here $a,b\in\mathbb{C}\setminus\{0\}$ are parameters indexing the family of solutions called *general rogue waves of infinite order*.
+```
+with parameter $\alpha=\frac{1}{2}+\mathrm{i}p$, where $p=\frac{1}{2\pi}\ln(1+\frac{|b|}{|a|})$. Here $a,b\in\mathbb{C}\setminus\{0\}$ are parameters indexing the family of solutions called *general rogue waves of infinite order*.
 
 - a Jupyter notebook titled `Paper-Code.ipynb` that contains the code samples used in the paper to produce the plots and examples.
